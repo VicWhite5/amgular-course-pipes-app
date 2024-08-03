@@ -37,12 +37,11 @@ export class MenuBarComponent implements OnInit {
       {
         label: 'Pipes personalizados',
         icon: 'pi pi-cog',
-        // routerLink: 'ordenar'
         items: [
           {
-            label: 'Ordenar',
-            icon: 'pi pi-sort-alpha-down',
-            // routerLink: 'ordenar'
+            label: 'Custom Pipes',
+            icon: 'pi pi-cog',
+            routerLink: 'custom'
           },
         ],
       },
